@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/query.css">
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
@@ -18,7 +19,7 @@
                     <li><a href="#">food delivery</a></li>
                     <li><a href="#">how it works</a></li>
                     <li><a href="#">our cities</a></li>
-                    <li><a href="#"> how it works</a></li>
+                    <li><a href="#"> sign up</a></li>
                 </ul>
 
             </div>
@@ -337,6 +338,105 @@
 
         </div>
     </section>
+
+    <section class="section-form">
+        <div class="row">
+            <h2>we're happy to hear from you</h2>
+        </div>
+        <div class="row">
+            <form action="#" method="get" class="contact-form">
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="">Name</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="text" name="name" id="name" placeholder="Your name" required>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="">Email</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="email" name="email" id="email" placeholder="Your email" required>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="">How did you find us?</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <select name="find us" id="find-us">
+                            <option value="friend" selected>Friend</option>
+                        <option value="social media">Social Media</option>
+                        <option value="ad">Ad</option>
+                        <option value="other">Other</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="">Newsletter</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="checkbox" name="checkbox" id="checkbox" checked> Yes please
+                        <input type="checkbox" name="checkbox" id="checkbox" > No, thanks
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="">Drop us a line!</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <textarea name="line" id="line" cols="30" rows="10" placeholder="Drop your message"></textarea>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="">&nbsp;</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="submit" name="button" id="button" value="Send it" class="btn btn-ghost">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="row">
+            <div class="col span-1-of-2">
+                <ul class="footer-nav">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Press</a></li>
+                    <li><a href="#">ios App</a></li>
+                    <li><a href="#">Android App</a></li>
+                </ul>
+            </div>
+
+            <div class="col span-1-of-2">
+                <ul class="social-links">
+                    <li><a href="#"><ion-icon class="face" name="logo-facebook"></ion-icon></a></li>
+                    <li><a href="#"><ion-icon class="twit" name="logo-twitter"></ion-icon></a></li>
+                    <li><a href="#"><ion-icon class="inst" name="logo-instagram"></ion-icon></a></li>
+                    <li><a href="#"><ion-icon class="gog" name="logo-google"></ion-icon></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row">
+            <p>
+                Copyright &copy;2020 by Ominifood. All right reserved.
+            </p>
+        </div>
+    </footer>
+
     <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
 </body>
 </html>
