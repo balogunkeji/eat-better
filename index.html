@@ -12,18 +12,38 @@
 </head>
 <body>
     <header>
-        <nav>
-            <div class="row">
-                <img class="white" src="image/logo-white.png" alt="logo">
-                <ul class="main-nav">
-                    <li><a href="#">food delivery</a></li>
-                    <li><a href="#">how it works</a></li>
-                    <li><a href="#">our cities</a></li>
-                    <li><a href="#"> sign up</a></li>
-                </ul>
-
-            </div>
+        <nav class="sticky">
+                <div class="row mobilebig">
+                    <img src="image/logo.png" alt="" class="black">
+                    <img class="white" src="image/logo-white.png" alt="logo">
+                    <ul class="main-nav">
+                        <li><a href="#">food delivery</a></li>
+                        <li><a href="#">how it works</a></li>
+                        <li><a href="#">our cities</a></li>
+                        <li><a href="#"> sign up</a></li>
+                    </ul>
+                </div>
         </nav>
+                
+                    <div class="mobile">
+                        <div class="topnav">
+                            <img class="white logo" src="image/logo-white.png" alt="logo">
+                            <ul class="top-nav" id="myLinks">
+                                <li><a href="#">food delivery</a></li>
+                                <li><a href="#">how it works</a></li>
+                                <li><a href="#">our cities</a></li>
+                                <li><a href="#"> sign up</a></li>
+                            </ul>
+            
+                            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                                <ion-icon name="menu-outline"  class="sharp"></ion-icon>
+                            </a>
+            
+                        </div>
+                    </div>
+    
+                
+                
         <div class="hero-textbox">
             <h1>Goodbye junk food. <br> Hello healthy meals</h1>
             <a class="btn btn-full" href="#">I'm hungry</a>
@@ -221,20 +241,20 @@
         <div class="row">
             <h2>our customers testimonies</h2>
         </div>
-        <div class="row">
-            <div class="col span-1-of-3">
+        <div class="row items">
+            <div class="col span-1-of-3 item1">
                 <blockquote>
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus, numquam totam recusandae eius iusto omnis quisquam repellat vitae impedit odio eaque incidunt dolor, nam soluta?
                     <cite> <img class="img" src="image/customer-1.jpg" alt=""> Alberto Duncan</cite>
                 </blockquote>
             </div>
-            <div class="col span-1-of-3">
+            <div class="col span-1-of-3 item2">
                 <blockquote>
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus, numquam totam recusandae eius iusto omnis quisquam repellat vitae impedit odio eaque incidunt dolor, nam soluta?
                     <cite> <img src="image/customer-2.jpg" alt=""> Rlberto Buncan</cite>
                 </blockquote>
             </div>
-            <div class="col span-1-of-3">
+            <div class="col span-1-of-3 item3">
                 <blockquote>
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus, numquam totam recusandae eius iusto omnis quisquam repellat vitae impedit odio eaque incidunt dolor, nam soluta?
                     <cite> <img src="image/customer-3.jpg" alt=""> John Duncan</cite>
@@ -437,6 +457,10 @@
         </div>
     </footer>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/style.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2/dist/jquery.min.js"></script>
     <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    
 </body>
 </html>
