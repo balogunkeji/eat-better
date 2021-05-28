@@ -5,7 +5,7 @@ function myFunction(){
     }else{
         x.style.display = 'block';
     }
-}
+}x
 
 $(document).ready(function () {
     $('.js--section-features').waypoint(function(direction){
